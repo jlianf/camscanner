@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.templatemela.camscanner">
+    package="yaydev.camscanner">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -24,7 +24,7 @@
     <uses-permission android:name="com.android.vending.BILLING" />
 
     <application
-        android:name=".MyApp"
+        android:name="com.yaydev.camscanner.MyApp"
         android:allowBackup="true"
         android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
@@ -50,9 +50,9 @@
                 tools:replace="android:resource" />
         </provider>
 
-        <activity android:name="com.templatemela.camscanner.activity.BaseActivity" />
+        <activity android:name="yaydev.camscanner.activity.BaseActivity" />
         <activity
-            android:name=".activity.SplashActivity"
+            android:name="com.yaydev.camscanner.activity.SplashActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -60,58 +60,58 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.templatemela.camscanner.activity.MainActivity"
+            android:name="yaydev.camscanner.activity.MainActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name="com.templatemela.camscanner.activity.ScannerActivity"
+            android:name="yaydev.camscanner.activity.ScannerActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.yalantis.ucrop.UCropActivity"
             android:theme="@style/uCropStyle"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.templatemela.camscanner.activity.IDCardPreviewActivity"
+            android:name="yaydev.camscanner.activity.IDCardPreviewActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.templatemela.camscanner.activity.CropDocumentActivity"
+            android:name="yaydev.camscanner.activity.CropDocumentActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.templatemela.camscanner.activity.CurrentFilterActivity"
+            android:name="yaydev.camscanner.activity.CurrentFilterActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.templatemela.camscanner.activity.SavedDocumentActivity"
+            android:name="yaydev.camscanner.activity.SavedDocumentActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.templatemela.camscanner.activity.DocumentEditorActivity"
+            android:name="yaydev.camscanner.activity.DocumentEditorActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustNothing" />
         <activity
-            android:name="com.templatemela.camscanner.activity.SavedEditDocumentActivity"
+            android:name="yaydev.camscanner.activity.SavedEditDocumentActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.templatemela.camscanner.activity.SavedDocumentPreviewActivity"
+            android:name="yaydev.camscanner.activity.SavedDocumentPreviewActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.templatemela.camscanner.activity.NoteActivity"
+            android:name="yaydev.camscanner.activity.NoteActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.templatemela.camscanner.activity.ImageToTextActivity"
+            android:name="yaydev.camscanner.activity.ImageToTextActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.templatemela.camscanner.activity.GroupDocumentActivity"
+            android:name="yaydev.camscanner.activity.GroupDocumentActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.templatemela.camscanner.activity.PDFViewerActivity"
+            android:name="yaydev.camscanner.activity.PDFViewerActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.templatemela.camscanner.activity.QRGenerateActivity"
+            android:name="yaydev.camscanner.activity.QRGenerateActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.templatemela.camscanner.activity.QRReaderActivity"
+            android:name="yaydev.camscanner.activity.QRReaderActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.templatemela.camscanner.activity.PrivacyPolicyActivity"
+            android:name="yaydev.camscanner.activity.PrivacyPolicyActivity"
             android:screenOrientation="portrait" />
 
         <meta-data
