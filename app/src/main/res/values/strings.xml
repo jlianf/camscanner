@@ -1,10 +1,10 @@
 <resources>
-    <string name="app_name">CamScanner & Barcode Maker</string>
+    <string name="app_name">CamScanner Barcode Maker</string>
 
     <string name="admob_native_ad">/6499/example/native</string>
-    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
-    <string name="admob_banner_id">ca-app-pub-3940256099942544/6300978111</string>
-    <string name="admob_interstitial_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="admob_app_id">ca-app-pub-4905035688129642~9353466050</string>
+    <string name="admob_banner_id">ca-app-pub-4905035688129642/3521914246</string>
+    <string name="admob_interstitial_id">ca-app-pub-4905035688129642/2372290587</string>
 
     <string name="academic_docs_empty">No Academic Docs Scanned Yet.</string>
     <string name="all_docs_empty">No Document Scanned Yet.</string>

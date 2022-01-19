@@ -27,6 +27,6 @@ public class PrivacyPolicyActivity extends BaseActivity {
                 onBackPressed();
             }
         });
-        this.web.loadUrl("https://templatemela.com/privacy");
+        this.web.loadUrl("https://yaydevelopers.blogspot.com/2022/01/privacy-policy_19.html");
     }
 }
