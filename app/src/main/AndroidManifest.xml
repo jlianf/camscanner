@@ -50,7 +50,7 @@
                 tools:replace="android:resource" />
         </provider>
 
-        <activity android:name="yaydev.camscanner.activity.BaseActivity" />
+        <activity android:name="com.yaydev.camscanner.activity.BaseActivity" />
         <activity
             android:name="com.yaydev.camscanner.activity.SplashActivity"
             android:screenOrientation="portrait">
@@ -60,58 +60,58 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="yaydev.camscanner.activity.MainActivity"
+            android:name="com.yaydev.camscanner.activity.MainActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name="yaydev.camscanner.activity.ScannerActivity"
+            android:name="com.yaydev.camscanner.activity.ScannerActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.yalantis.ucrop.UCropActivity"
             android:theme="@style/uCropStyle"
             android:screenOrientation="portrait" />
         <activity
-            android:name="yaydev.camscanner.activity.IDCardPreviewActivity"
+            android:name="com.yaydev.camscanner.activity.IDCardPreviewActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="yaydev.camscanner.activity.CropDocumentActivity"
+            android:name="com.yaydev.camscanner.activity.CropDocumentActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="yaydev.camscanner.activity.CurrentFilterActivity"
+            android:name="com.yaydev.camscanner.activity.CurrentFilterActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="yaydev.camscanner.activity.SavedDocumentActivity"
+            android:name="com.yaydev.camscanner.activity.SavedDocumentActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="yaydev.camscanner.activity.DocumentEditorActivity"
+            android:name="com.yaydev.camscanner.activity.DocumentEditorActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustNothing" />
         <activity
-            android:name="yaydev.camscanner.activity.SavedEditDocumentActivity"
+            android:name="com.yaydev.camscanner.activity.SavedEditDocumentActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="yaydev.camscanner.activity.SavedDocumentPreviewActivity"
+            android:name="com.yaydev.camscanner.activity.SavedDocumentPreviewActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="yaydev.camscanner.activity.NoteActivity"
+            android:name="com.yaydev.camscanner.activity.NoteActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="yaydev.camscanner.activity.ImageToTextActivity"
+            android:name="com.yaydev.camscanner.activity.ImageToTextActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="yaydev.camscanner.activity.GroupDocumentActivity"
+            android:name="com.yaydev.camscanner.activity.GroupDocumentActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="yaydev.camscanner.activity.PDFViewerActivity"
+            android:name="com.yaydev.camscanner.activity.PDFViewerActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="yaydev.camscanner.activity.QRGenerateActivity"
+            android:name="com.yaydev.camscanner.activity.QRGenerateActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="yaydev.camscanner.activity.QRReaderActivity"
+            android:name="com.yaydev.camscanner.activity.QRReaderActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="yaydev.camscanner.activity.PrivacyPolicyActivity"
+            android:name="com.yaydev.camscanner.activity.PrivacyPolicyActivity"
             android:screenOrientation="portrait" />
 
         <meta-data
