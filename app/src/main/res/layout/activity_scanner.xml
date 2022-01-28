@@ -188,12 +188,11 @@
                     android:adjustViewBounds="true"
                     android:background="@color/bg_color1"
                     android:keepScreenOn="true"
+                    app:cameraAudio="off"
                     app:cameraFacing="back"
                     app:cameraFlash="auto"
                     app:cameraGestureTap="autoFocus"
-                    app:cameraWhiteBalance="auto"
-                    app:cameraAudio="off"
-                   />
+                    app:cameraWhiteBalance="auto" />
 
                 <RelativeLayout
                     android:id="@+id/rl_book_view"
