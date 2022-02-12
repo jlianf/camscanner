@@ -21,8 +21,6 @@
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
-    <uses-permission android:name="com.android.vending.BILLING" />
-
     <application
         android:name="com.yaydev.camscanner.MyApp"
         android:allowBackup="true"
